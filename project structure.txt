@@ -1,0 +1,24 @@
+project/
+│
+├── backend/
+│   ├── model.py         # ML model load & predict logic
+│   └── api.py           # FastAPI endpoints (API component)
+│
+├── frontend/
+│   └── app.py           # Streamlit UI (frontend)
+│
+├── main.py              # Run FastAPI from here (optional)
+└── requirements.txt
+
+
+project/
+│
+├── backend/
+│   ├── model_utils.py     # Model loading & prediction logic
+│   └── api.py             # FastAPI app & endpoints (API component)
+│
+├── frontend/
+│   └── app.py             # Streamlit UI (Frontend)
+│
+├── model.pkl              # Trained ML model
+└── run_api.py             # Uvicorn entrypoint
