@@ -9,7 +9,7 @@ import os
 # Function to run FastAPI server
 def run_fastapi():
     try:
-        subprocess.run([sys.executable, "run_api.py"])
+        subprocess.Popen([sys.executable, "run_api.py"])
     except Exception as e:
         st.error(f"Error starting FastAPI server: {e}")
 
